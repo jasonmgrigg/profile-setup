@@ -37,13 +37,16 @@ section {
 }
 
 .container h2 {
-display: flex;
-justify-content: center;
 align-items: center;
 }
 
-.radio-inline {
+label {
+  align-items: center;
+  display: inline;
+}
+
+.input {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-direction:
 }
