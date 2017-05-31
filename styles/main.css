@@ -15,7 +15,7 @@ body {
 .outer {
   display: flex;
   justify-content: center;
-  /*flex-direction: row;*/
+  flex-direction: column;
   align-items: center;
   background-color: #FBDA31;
   padding: 2rem;
@@ -29,12 +29,21 @@ section {
   width: 500px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container h2 {
 display: flex;
 justify-content: center;
+align-items: center;
 }
 
-/*.container {
+.radio-inline {
   display: flex;
   justify-content: center;
-}*/
+  flex-direction:
+}
