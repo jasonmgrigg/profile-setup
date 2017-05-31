@@ -40,14 +40,14 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5%;
-  margin-left: 8%;
+  padding: 3% 0% 5% 0%;
+  margin-left: 20%;
 }
 
 .radio-inline {
   width: 250px;
   line-height: normal;
-  padding: 8%;
+  /*padding: 8%;*/
 }
 
 .container h2 {
@@ -59,7 +59,7 @@ font-weight: bold;
   width: 760px;
   display: flex;
   justify-content:space-around;
-  /*margin-left: 10%;*/
+  margin-left: 2%;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -104,4 +104,15 @@ input[type=text], input[type=email] {
   .buttonholder {
     text-align: center;
     vertical-align: middle;
+  }
+
+  .choosefile {
+    width: 200px;
+    padding: 3%;
+    margin-top: -50px;
+    font-size: 15px;
+  }
+
+  .choosefile label {
+    height: 10px;
   }
