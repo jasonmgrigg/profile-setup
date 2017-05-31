@@ -6,6 +6,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
   font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
 }
 
 body {
@@ -30,40 +31,77 @@ section {
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
 
-.container h2 {
-align-items: center;
+.radio-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  margin-left: 8%;
 }
 
-label {
-  align-items: center;
-  display: inline;
+.radio-inline {
+  width: 250px;
+  line-height: normal;
+  padding: 8%;
+}
+
+.container h2 {
+align-items: center;
+font-weight: bold;
 }
 
 .input {
-  width: 600px;
+  width: 760px;
   display: flex;
-  justify-content:space-between;
-  margin-top: 5%;
-  padding: 3%;
+  justify-content:space-around;
+  /*margin-left: 10%;*/
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-input[type=text] {
-    width: 100%;
+input[type=text], input[type=email] {
     border-style: solid;
+    border-width: thin;
     border-color: black;
     margin-bottom: 40px;
+  }
+
+  .column1 input, .column2 input {
+    width: 300px;
+    line-height: normal;
     padding: 3%;
   }
 
-  input[type=email] {
-      width: 100%;
+  .column1, .column2 {
+    flex: 1;
+    align-items: center;
+  }
+
+  input[type=submit] {
+      margin-top: 10px;
+      margin-left: 400px;
+      color: black;
+      background-color: white;
+      font-size: 20px;
       border-style: solid;
+      border-width: thin;
       border-color: black;
-      margin-bottom: 40px;
-      padding: 3%;
-    }
+      border-radius: 5px;
+      cursor: pointer;
+      height: 40px;
+      width: 250px;
+  }
+
+  input[type=submit]:hover {
+      background-color: #CD5D67;
+  }
+
+  .buttonholder {
+    text-align: center;
+    vertical-align: middle;
+  }
