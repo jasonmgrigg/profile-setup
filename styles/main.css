@@ -26,7 +26,6 @@ section {
   max-width: 760px;
   background-color: #ffffff;
   padding: 2rem 0;
-  width: 500px;
 }
 
 .container {
@@ -46,7 +45,25 @@ label {
 }
 
 .input {
+  width: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content:space-between;
+  margin-top: 5%;
+  padding: 3%;
 }
+
+input[type=text] {
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 40px;
+    padding: 3%;
+  }
+
+  input[type=email] {
+      width: 100%;
+      border-style: solid;
+      border-color: black;
+      margin-bottom: 40px;
+      padding: 3%;
+    }
